@@ -18,7 +18,8 @@ header.black {
 }
 
 .header--logo {
-    height: 25px;
+    height: 200px;
+    padding-top: 25px ;
 }
 
 .header--logo img {

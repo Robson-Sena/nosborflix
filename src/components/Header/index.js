@@ -1,12 +1,14 @@
 import React from "react";
 import './Header.css';
+import logo from '../../images/logo-nosborflix.png';
 
 export default ({black}) => {
     return (
         <header className={black ? 'black' : ''}>
             <div className="header--logo">
                 <a href="/">
-                    <img src="https://andrewjamesspooner.com/wp-content/uploads/2019/06/netflix-logo-e1536243210766-1024x284.png" alt="Netiflix" />
+                    <img src={logo} alt="NosborFlix Logo" />
+                    {/* <img src="https://andrewjamesspooner.com/wp-content/uploads/2019/06/netflix-logo-e1536243210766-1024x284.png" alt="Netiflix" /> */}
                 </a>
             </div>
             <div className="header--user">
